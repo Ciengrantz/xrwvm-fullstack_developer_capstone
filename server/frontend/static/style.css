@@ -124,3 +124,27 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+.contact{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin:20px;
+    padding:5px;
+  }
+
+.contact-details{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin:20px;
+  }
+  .contact-title{
+    font-size: 20px;
+    background-color: rgba(76,186,219,255);
+    color: black;
+    text-align: center;
+    margin:20px;
+    padding:5px;
+  }
