@@ -148,3 +148,16 @@ img{
     margin:20px;
     padding:5px;
   }
+
+.line{
+    border-bottom: 6px black;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+}
+.container-side-by-side { 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-content: ;
+} 
