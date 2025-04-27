@@ -42,7 +42,7 @@ class CarModel(models.Model):
         # Add more choices as required
     ]
     type = models.CharField(max_length=10, choices=CAR_TYPES, default='SUV')
-        year = models.IntegerField(default=2025,
+    year = models.IntegerField(default=2025,
         validators=[
             MaxValueValidator(2025),
             MinValueValidator(2000)
